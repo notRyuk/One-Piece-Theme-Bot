@@ -190,10 +190,10 @@ For starters click on this button
 
 
 ## Credits
-The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars) also clone of SaitamaRobot.
+The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars) also clone of [SaitamaRobot](https://t.me/SaitamaRobot).
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [One Piece Base](https://t.me/OnePieceBase) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [One Piece Base](https://t.me/OnePieceBase) or simply submit a pull request on the README.
 
