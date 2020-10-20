@@ -190,7 +190,7 @@ For starters click on this button
 
 
 ## Credits
-The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars) also clone of [SaitamaRobot](https://t.me/SaitamaRobot).
+The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars) also clone of [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot/), [Telegram Link](https://t.me/SaitamaRobot).
 This repo was just revamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
 Any other authorship/credits can be seen through the commits.
