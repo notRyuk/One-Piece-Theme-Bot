@@ -1,6 +1,6 @@
 import threading
 
-from SOnePieceBot.modules.sql import BASE, SESSION
+from OnePieceBot.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String
 
 
