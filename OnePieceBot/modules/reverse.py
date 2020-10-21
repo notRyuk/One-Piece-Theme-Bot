@@ -184,14 +184,14 @@ def scam(imgspage, lim):
 REVERSE_HANDLER = DisableAbleCommandHandler(
     "reverse", reverse, pass_args=True, admin_ok=True
 )
-__mod_name__ = "Search"
+help = []
 
-__help__= """
+help_mod = """
 *Reverse Search*: Searches about photos, gifs, short videos etc.
 
 • `/reverse`*:* When replied to photo/gif searches and replies with results
 """
-
+help.append(help_mod)
 
 
 dispatcher.add_handler(REVERSE_HANDLER)
