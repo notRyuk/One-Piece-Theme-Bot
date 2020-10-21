@@ -188,7 +188,6 @@ help = []
 
 help_mod = """
 *Reverse Search*: Searches about photos, gifs, short videos etc.
-
 • `/reverse`*:* When replied to photo/gif searches and replies with results
 """
 help.append(help_mod)
