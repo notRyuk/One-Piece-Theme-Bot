@@ -185,7 +185,7 @@ def table(update: Update, context: CallbackContext):
 
 help_mod = []
     
-__help__ = """
+help= """
 This module's available commands are: 
  • `/runs`*:* reply a random string from an array of replies
  • `/slap`*:* slap a user, or get slapped if not a reply
@@ -202,7 +202,7 @@ This module's available commands are:
  • `/pat`*:* pats a user, or get patted
 """
 
-help_mod.append(__help__)
+help_mod.append(help)
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
 RUNS_HANDLER = DisableAbleCommandHandler("runs", runs)
