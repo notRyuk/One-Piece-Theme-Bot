@@ -46,7 +46,7 @@ __mod_name__ = 'Search'
 __help__ = REVERSE_MOD.help_mod[0]
 __help__ += '''
 \nThis command helps with taking of screenshots of webpages
-• `/capture <url>`*:* Try `/snip github.com` for better knowing this command
+• `/capture <url>`*:* Try `/capture github.com` for better knowing this command
 '''
 
 WEBSS_HANDLER = DisableAbleCommandHandler("capture", web_ss)
