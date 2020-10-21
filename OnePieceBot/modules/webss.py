@@ -23,7 +23,7 @@ def web_ss(update: Update, context: CallbackContext):
     res = r.get(
       f"https://screenshotapi.net/api/v1/screenshot?token={WEBSS_API}&url={query}&full_page=true&output=json&fail_on_error=true"
     ).json()
-    #print(res)
+    print(res)
     if not res.get("success"):
       msg.reply_text(
         f"Something went wrong please contact @{SUPPORT_CHAT}\nForward this message to the support chat")
