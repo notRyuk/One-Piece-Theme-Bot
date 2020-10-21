@@ -190,7 +190,7 @@ help= """
 *Reverse Search*: Searches about photos, gifs, short videos etc.
 • `/reverse`*:* When replied to photo/gif searches and replies with results
 """
-help.append(help_mod)
+help_mod.append(help)
 
 
 dispatcher.add_handler(REVERSE_HANDLER)
