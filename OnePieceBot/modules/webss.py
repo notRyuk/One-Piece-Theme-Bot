@@ -21,7 +21,7 @@ def web_ss(update: Update, context: CallbackContext):
     rep = msg.reply_text(
       "<code>Generating...</code>", parse_mode=ParseMode.HTML)
     res = r.get(
-      f"https://screenshotapi.net/api/v1/screenshot?token={WEBSS_API}&url={query}&full_page=true&output=json&retina=true&fail_on_error=true"
+      f"https://screenshotapi.net/api/v1/screenshot?token={WEBSS_API}&url={query}&full_page=true&output=json&fail_on_error=true"
     ).json()
     print(res)
     if not res.get("success"):
